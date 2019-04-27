@@ -180,10 +180,14 @@ footer {
 }
 
 .linkedin {
-	display: flex;
-	flex-direction: row;
+	display: inline-flex;
+	flex-direction: column;
 	justify-content: center; 
-	
+	text-align: center;
+}
+
+#profile-link {
+	font-size: 14px;
 }
 
 .copyright {
