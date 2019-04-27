@@ -10,7 +10,7 @@
 	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
 </head>
 <body>
-	<div id="container">
+	<div id="navbar">
 		<header class="header">
 			<div class="logo-header">
 				<img alt="zlogo" class="logo" src="img/ZLogo.png"> <!--Logo Designed on https://freelogodesign.org-->
@@ -22,6 +22,16 @@
 				<div class="title">
 					<p class="sub-header">Front-End Web Developer</p>
 				</div>
+				<div class="about">
+					<a href=#about rel="internal">
+						<p class="sub-header">About</p>
+					</a>
+				</div>
+				<div class="featured-work">
+					<a href="#featured-work" rel="internal">
+						<p class="sub-header">Featured Work</p>
+					</a>
+				</div>
 			</div>
 		</header>
 	</div>
@@ -31,28 +41,36 @@
 			<img alt="Laptop Image" class="main-image" src="img/laptop.jpg"><!--img from Pixabay-->
 			<p class="photo-credit">Photo by lukasbieri on <a href="https://pixabay.com/en/laptop-macbook-home-office-switched-2838917/" target="_blank">Pixabay</a></p>
 		</div>
+		<div id="welcome-section">
+			<h2 id="about" class="about-title">About</h2>
+			<h1 id="about-me" class="about-title">Hi, I'm Juwana Zerman</h1>
+			<p class="about-title">Front-End Web Developer</p>
+		</div>
+		<br />
+		<div id="projects" class="portfolio">
 		<section class="featured">
-			<h2 class="featured-heading">Featured Work</h2>
+			<h2 class="featured-heading" id="featured-work">Featured Work</h2>
 			<div class="featured-items">
-				<figure class="project1">
+				<figure class="project-tile">
 					<img alt="PixelArtMaker Image" class="responsive-two" src="img/PixelArtMaker.jpg">
 					<figcaption class="pixel-link">
 						<a href="https://codepen.io/JZerman/pen/VXBQgK" target="_blank">Pixel Art Maker</a>
 					</figcaption>
 				</figure>
-				<figure class="project2">
+				<figure class="project-tile">
 					<img alt="grey reef shark" class="responsive-two" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Grey_reef_shark.jpg/320px-Grey_reef_shark.jpg">
 					<figcaption class="animal-card">
 						<a href="https://codepen.io/JZerman/pen/odYJMq" target="_blank">Animal Trading Card</a>
 					</figcaption>
 				</figure>
-				<figure class="project3">
+				<figure class="project-tile">
 					<img alt="Next Big Thing Image" class="responsive-two" src="img/NextBigThing.jpg">
 					<figcaption class="coming-soon">
 						<p>Coming Soon!</p>
 					</figcaption><!--Photo by Geralt on Pixabay https://pixabay.com/en/place-name-sign-thing-experience-1647341/-->
 				</figure>
 			</div>
+		</div>
 		</section>
 		<footer class="contact-footer">
 			<div class="footer-heading">
@@ -60,13 +78,16 @@
 			</div>
 			<div class="linkedin">
 				<a href="https://linkedin.com/in/juwana-zerman-4b8a0b163" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<a id="profile-link" href="https://github.com/JZerman2018" target="blank"><i class="fab fa-github"></i></a>
+			</div>
 			</div>
 			<div class="copyright">
-				<p>&copy; 2018 Juwana Zerman</p>
+				<p>Updated &copy; 2019 Juwana Zerman</p>
 			</div>
 		</footer>
 	</main>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 	</script>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
